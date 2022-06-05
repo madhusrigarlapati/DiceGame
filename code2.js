@@ -2,7 +2,7 @@
 let r1,r2,res;
 
 document.getElementById("b2").addEventListener("click",function(){
-    document.getElementById("one").innerHTML="player2 trun"
+    document.getElementById("one").innerHTML="player2 turn"
 });
 document.getElementById("b3").addEventListener("click",function(){
     document.getElementById("one").innerHTML=res+"  TryAgain!!"
@@ -27,13 +27,13 @@ function roll(x,y){
 
 function dice(){
     if(r1>r2){
-        res="player 1 wins";
+        res="Player 1 wins";
     }
     else if(r2>r1){
-        res="player2 wins";
+        res="Player2 wins";
     }
     else{
-        res="draw";
+        res="Draw";
     }
     
 }
