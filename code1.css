@@ -1,0 +1,29 @@
+div.d1{
+    position: relative;
+    left:15%;
+    padding-top: 40px;
+}
+
+div.d2{
+    position: absolute;
+    left:60%;
+    top: 109px;
+}
+body{
+    background-color: #bd24ce;
+}
+.text{
+    font-style: italic;
+    font-size: 43px;
+}
+.btn{
+    background-color: #008CBA;
+    border-radius:50%;
+    border-color:#008CBA;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    cursor: pointer; 
+}
